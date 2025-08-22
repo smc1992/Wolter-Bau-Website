@@ -92,7 +92,7 @@ export default function Header() {
             <Link href="/#about" className="text-gray-700 hover:text-red-700 font-medium transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-red-50">
               Über uns
             </Link>
-            <Link href="/#contact" className="text-gray-700 hover:text-red-700 font-medium transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-red-50">
+            <Link href="/kontakt" className="text-gray-700 hover:text-red-700 font-medium transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-red-50">
               Kontakt
             </Link>
           </nav>
@@ -163,7 +163,7 @@ export default function Header() {
               <Link href="/#about" className="block px-3 py-2 text-gray-700 hover:text-red-700 hover:bg-red-50 rounded-md font-medium transition-colors duration-200">
                 Über uns
               </Link>
-              <Link href="/#contact" className="block px-3 py-2 text-gray-700 hover:text-red-700 hover:bg-red-50 rounded-md font-medium transition-colors duration-200">
+              <Link href="/kontakt" className="block px-3 py-2 text-gray-700 hover:text-red-700 hover:bg-red-50 rounded-md font-medium transition-colors duration-200">
                 Kontakt
               </Link>
               

@@ -41,14 +41,14 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col gap-4 sm:gap-6 justify-center items-center">
-                <button className="group bg-red-700 hover:bg-red-800 text-white font-bold py-3 sm:py-4 lg:py-5 px-6 sm:px-8 lg:px-10 rounded-lg sm:rounded-xl text-base sm:text-lg lg:text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 border-2 border-red-600 hover:border-red-400 w-full sm:w-auto">
+                <Link href="/kontakt" className="group bg-red-700 hover:bg-red-800 text-white font-bold py-3 sm:py-4 lg:py-5 px-6 sm:px-8 lg:px-10 rounded-lg sm:rounded-xl text-base sm:text-lg lg:text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 border-2 border-red-600 hover:border-red-400 w-full sm:w-auto block text-center">
                   <span className="flex items-center justify-center">
                     Jetzt Kontakt aufnehmen
                     <svg className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </span>
-                </button>
+                </Link>
                 
                 <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 w-full sm:w-auto">
                   <a href="tel:03093688102" className="group flex items-center justify-center text-white hover:text-red-300 transition-all duration-300 bg-white/10 backdrop-blur-sm rounded-lg px-3 sm:px-4 py-2 sm:py-3 hover:bg-white/20 w-full sm:w-auto">

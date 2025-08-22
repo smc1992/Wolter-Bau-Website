@@ -1,44 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Datenschutz() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center">
-              <Link href="/">
-                <Image
-                  src="/Logo-FINISH.png"
-                  alt="Wolter Bau GmbH Logo"
-                  width={120}
-                  height={60}
-                  className="h-12 w-auto"
-                />
-              </Link>
-            </div>
-            <nav className="hidden md:flex space-x-8">
-              <Link href="/#home" className="text-gray-700 hover:text-orange-600 font-medium">
-                Home
-              </Link>
-              <Link href="/#services" className="text-gray-700 hover:text-orange-600 font-medium">
-                Leistungen
-              </Link>
-              <Link href="/#projects" className="text-gray-700 hover:text-orange-600 font-medium">
-                Projekte
-              </Link>
-              <Link href="/#about" className="text-gray-700 hover:text-orange-600 font-medium">
-                Über uns
-              </Link>
-              <Link href="/#contact" className="text-gray-700 hover:text-orange-600 font-medium">
-                Kontakt
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -248,46 +216,7 @@ export default function Datenschutz() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <Image
-                src="/Logo-FINISH.png"
-                alt="Wolter Bau GmbH Logo"
-                width={120}
-                height={60}
-                className="h-12 w-auto mb-4 filter brightness-0 invert"
-              />
-              <p className="text-gray-400">
-                Ihr zuverlässiger Partner für alle Bauvorhaben in Berlin und Umgebung.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
-              <div className="space-y-2 text-gray-400">
-                <p>Waldowstraße 9, 13403 Berlin</p>
-                <p>Tel: 030 93688102</p>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Rechtliches</h3>
-              <div className="space-y-2">
-                <Link href="/impressum" className="text-gray-400 hover:text-white block">
-                  Impressum
-                </Link>
-                <Link href="/datenschutz" className="text-orange-500 block">
-                  Datenschutzerklärung
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Wolter Bau GmbH. Alle Rechte vorbehalten.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

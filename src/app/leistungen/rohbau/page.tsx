@@ -1,6 +1,18 @@
 import Image from "next/image";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Rohbau - Wolter Bau GmbH",
+  description: "Professionelle Rohbauarbeiten von Wolter Bau GmbH in Berlin. Fundamentarbeiten, Mauerwerk, Betonarbeiten für Wohn- und Gewerbeobjekte. Erfahrung seit über 25 Jahren.",
+  keywords: ["Rohbau Berlin", "Fundamentarbeiten", "Mauerwerk", "Betonarbeiten", "Rohbauarbeiten", "Wolter Bau Rohbau"],
+  openGraph: {
+    title: "Rohbau - Wolter Bau GmbH",
+    description: "Professionelle Rohbauarbeiten von Wolter Bau GmbH in Berlin. Fundamentarbeiten, Mauerwerk, Betonarbeiten für Wohn- und Gewerbeobjekte.",
+    url: 'https://wolter-bau.de/leistungen/rohbau',
+  },
+};
 
 export default function RohbauPage() {
   return (
