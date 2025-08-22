@@ -169,11 +169,11 @@ export default function RohbauPage() {
             <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/Projekt Bürogebäude, Kurt Wagener Str, 25227 Elmshorn, Rohbauarbeiten.webp"
-                  alt="Bürogebäude Rohbau Elmshorn"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+                   src="/projekt-buerogebaude-elmshorn.webp"
+                   alt="Bürogebäude Rohbau Elmshorn"
+                   fill
+                   className="object-cover group-hover:scale-110 transition-transform duration-500"
+                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-6">
@@ -191,11 +191,11 @@ export default function RohbauPage() {
             <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/Rohbauarbeiten REWE, Leipziger Alee, 17389 Anklam.webp"
-                  alt="REWE Rohbau Anklam"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+                   src="/rewe-anklam.webp"
+                   alt="REWE Rohbau Anklam"
+                   fill
+                   className="object-cover group-hover:scale-110 transition-transform duration-500"
+                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-6">
@@ -213,11 +213,11 @@ export default function RohbauPage() {
             <div className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/Rohbauarbeiten, Erweiterung Marie Curie Schule,Am Sportpark 1, 30952 Ronnenberg (1).webp"
-                  alt="Marie Curie Schule Erweiterung"
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
+                   src="/marie-curie-schule.webp"
+                   alt="Marie Curie Schule Erweiterung"
+                   fill
+                   className="object-cover group-hover:scale-110 transition-transform duration-500"
+                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-6">

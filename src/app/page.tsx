@@ -204,35 +204,35 @@ export default function Home() {
              </div>
              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
                 <ProjectCard
-                   imageSrc="/Projekt Bürogebäude, Kurt Wagener Str, 25227 Elmshorn, Rohbauarbeiten.webp"
+                   imageSrc="/projekt-buerogebaude-elmshorn.webp"
                    title="Bürogebäude Elmshorn"
                    description="Rohbauarbeiten für ein modernes Bürogebäude in der Kurt Wagener Straße, Elmshorn."
                    tag="Rohbau"
                    altText="Bürogebäude Rohbau Elmshorn"
                  />
                  <ProjectCard
-                   imageSrc="/Rohbauarbeiten REWE, Leipziger Alee, 17389 Anklam.webp"
+                   imageSrc="/rewe-anklam.webp"
                    title="REWE Markt Anklam"
                    description="Rohbauarbeiten für einen REWE Supermarkt in der Leipziger Allee, Anklam."
                    tag="Rohbau"
                    altText="REWE Rohbau Anklam"
                  />
                  <ProjectCard
-                   imageSrc="/Rohbauarbeiten, Dacharbeiten Kaffetwiete, 25436 Tornesch.webp"
+                   imageSrc="/dacharbeiten-tornesch.webp"
                    title="Wohngebäude Tornesch"
                    description="Rohbau- und Dacharbeiten in der Kaffetwiete, Tornesch."
                    tag="Rohbau"
                    altText="Dacharbeiten Tornesch"
                  />
                  <ProjectCard
-                   imageSrc="/Rohbauarbeiten, Erweiterung Marie Curie Schule,Am Sportpark 1, 30952 Ronnenberg (1).webp"
+                   imageSrc="/marie-curie-schule.webp"
                    title="Marie Curie Schule"
                    description="Erweiterung der Marie Curie Schule am Sportpark, Ronnenberg."
                    tag="Rohbau"
                    altText="Marie Curie Schule Ronnenberg"
                  />
                  <ProjectCard
-                   imageSrc="/Rohbauarbeiten, REWE sierksdorfer Str  , 23730 Neustadt in Holstein.webp"
+                   imageSrc="/rewe-neustadt.webp"
                    title="REWE Neustadt"
                    description="Rohbauarbeiten REWE Sierksdorfer Straße, Neustadt in Holstein."
                    tag="Rohbau"
