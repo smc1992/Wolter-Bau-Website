@@ -210,85 +210,34 @@ export default function Home() {
                    tag="Rohbau"
                    altText="Bürogebäude Rohbau Elmshorn"
                  />
-               <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                 <div className="relative h-64">
-                   <Image
-                     src="/Rohbauarbeiten REWE, Leipziger Alee, 17389 Anklam.webp"
-                     alt="REWE Rohbau Anklam"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
-                 <div className="p-6">
-                   <h3 className="text-xl font-bold text-gray-900 mb-2">REWE Markt Anklam</h3>
-                   <p className="text-gray-600 mb-4">
-                     Rohbauarbeiten für einen REWE Supermarkt in der Leipziger Allee, Anklam.
-                   </p>
-                   <span className="inline-block bg-orange-100 text-orange-800 text-sm px-3 py-1 rounded-full">
-                     Rohbau
-                   </span>
-                 </div>
-               </div>
-               <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                 <div className="relative h-64">
-                   <Image
-                     src="/Rohbauarbeiten, Dacharbeiten Kaffetwiete, 25436 Tornesch.webp"
-                     alt="Dacharbeiten Tornesch"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
-                 <div className="p-6">
-                   <h3 className="text-xl font-bold text-gray-900 mb-2">Wohngebäude Tornesch</h3>
-                   <p className="text-gray-600 mb-4">
-                     Rohbau- und Dacharbeiten in der Kaffetwiete, Tornesch.
-                   </p>
-                   <span className="inline-block bg-orange-100 text-orange-800 text-sm px-3 py-1 rounded-full mr-2">
-                     Rohbau
-                   </span>
-                   <span className="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
-                     Dachbau
-                   </span>
-                 </div>
-               </div>
-               <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                 <div className="relative h-64">
-                   <Image
-                     src="/Rohbauarbeiten, Erweiterung Marie Curie Schule,Am Sportpark 1, 30952 Ronnenberg (1).webp"
-                     alt="Marie Curie Schule Ronnenberg"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
-                 <div className="p-6">
-                   <h3 className="text-xl font-bold text-gray-900 mb-2">Marie Curie Schule</h3>
-                   <p className="text-gray-600 mb-4">
-                     Erweiterung der Marie Curie Schule am Sportpark, Ronnenberg.
-                   </p>
-                   <span className="inline-block bg-orange-100 text-orange-800 text-sm px-3 py-1 rounded-full">
-                     Rohbau
-                   </span>
-                 </div>
-               </div>
-               <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
-                 <div className="relative h-64">
-                   <Image
-                     src="/Rohbauarbeiten, REWE sierksdorfer Str  , 23730 Neustadt in Holstein.webp"
-                     alt="REWE Neustadt Holstein"
-                     fill
-                     className="object-cover"
-                   />
-                 </div>
-                 <div className="p-6">
-                   <h3 className="text-xl font-bold text-gray-900 mb-2">REWE Neustadt</h3>
-                   <p className="text-gray-600 mb-4">
-                     Rohbauarbeiten REWE Sierksdorfer Straße, Neustadt in Holstein.
-                   </p>
-                   <span className="inline-block bg-orange-100 text-orange-800 text-sm px-3 py-1 rounded-full">
-                     Rohbau
-                   </span>
-                 </div>
-               </div>
+                 <ProjectCard
+                   imageSrc="/Rohbauarbeiten REWE, Leipziger Alee, 17389 Anklam.webp"
+                   title="REWE Markt Anklam"
+                   description="Rohbauarbeiten für einen REWE Supermarkt in der Leipziger Allee, Anklam."
+                   tag="Rohbau"
+                   altText="REWE Rohbau Anklam"
+                 />
+                 <ProjectCard
+                   imageSrc="/Rohbauarbeiten, Dacharbeiten Kaffetwiete, 25436 Tornesch.webp"
+                   title="Wohngebäude Tornesch"
+                   description="Rohbau- und Dacharbeiten in der Kaffetwiete, Tornesch."
+                   tag="Rohbau"
+                   altText="Dacharbeiten Tornesch"
+                 />
+                 <ProjectCard
+                   imageSrc="/Rohbauarbeiten, Erweiterung Marie Curie Schule,Am Sportpark 1, 30952 Ronnenberg (1).webp"
+                   title="Marie Curie Schule"
+                   description="Erweiterung der Marie Curie Schule am Sportpark, Ronnenberg."
+                   tag="Rohbau"
+                   altText="Marie Curie Schule Ronnenberg"
+                 />
+                 <ProjectCard
+                   imageSrc="/Rohbauarbeiten, REWE sierksdorfer Str  , 23730 Neustadt in Holstein.webp"
+                   title="REWE Neustadt"
+                   description="Rohbauarbeiten REWE Sierksdorfer Straße, Neustadt in Holstein."
+                   tag="Rohbau"
+                   altText="REWE Neustadt Holstein"
+                 />
              </div>
            </div>
           </section>
