@@ -46,6 +46,13 @@ export default function Impressum() {
           </div>
 
           <div className="mb-8">
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">Registereintrag</h3>
+            <p className="text-gray-700 mb-2">Eintragung im Handelsregister</p>
+            <p className="text-gray-700 mb-2">Registergericht: Amtsgericht Charlottenburg</p>
+            <p className="text-gray-700 mb-2">Registernummer: HRB 239036 B</p>
+          </div>
+
+          <div className="mb-8">
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Aufsichtsbehörde</h3>
             <p className="text-gray-700 mb-2">Handwerkskammer Berlin</p>
             <p className="text-gray-700 mb-2">Blücherstr. 68</p>
