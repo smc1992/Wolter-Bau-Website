@@ -22,47 +22,47 @@ export default function Home() {
            />
            <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60"></div>
          </div>
-         <div className="relative z-10 text-center text-white max-w-5xl mx-auto px-4 animate-fade-in">
-            <div className="mb-8">
-              <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-4 leading-none tracking-tight">
+         <div className="relative z-10 text-center text-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in">
+            <div className="mb-6 sm:mb-8">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-3 sm:mb-4 leading-tight sm:leading-none tracking-tight">
                 <span className="block bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent drop-shadow-2xl">QUALITÄTSBAU</span>
               </h1>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500 mb-6 tracking-wide drop-shadow-lg">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-red-500 mb-4 sm:mb-6 tracking-wide drop-shadow-lg">
                 DAUERHAFTE IMPRESSIONEN
               </h2>
             </div>
             
-            <div className="bg-black/30 backdrop-blur-sm rounded-2xl p-8 mb-8 border border-white/20">
-              <p className="text-xl md:text-2xl lg:text-3xl mb-6 leading-relaxed font-light">
+            <div className="bg-black/30 backdrop-blur-sm rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8 border border-white/20 mx-2 sm:mx-0">
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-4 sm:mb-6 leading-relaxed font-light">
                 Ihr zuverlässiger Partner für professionelle Baudienstleistungen
               </p>
-              <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-6 sm:mb-8 leading-relaxed">
                 Rohbau • Tiefbau • Dachausbau • Maurerarbeiten • Elektroarbeiten • Hochbau
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <button className="group bg-red-700 hover:bg-red-800 text-white font-bold py-5 px-10 rounded-xl text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 border-2 border-red-600 hover:border-red-400">
-                  <span className="flex items-center">
+              <div className="flex flex-col gap-4 sm:gap-6 justify-center items-center">
+                <button className="group bg-red-700 hover:bg-red-800 text-white font-bold py-3 sm:py-4 lg:py-5 px-6 sm:px-8 lg:px-10 rounded-lg sm:rounded-xl text-base sm:text-lg lg:text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 border-2 border-red-600 hover:border-red-400 w-full sm:w-auto">
+                  <span className="flex items-center justify-center">
                     Jetzt Kontakt aufnehmen
-                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </span>
                 </button>
                 
-                <div className="flex items-center space-x-6">
-                  <a href="tel:03093688102" className="group flex items-center text-white hover:text-red-300 transition-all duration-300 bg-white/10 backdrop-blur-sm rounded-lg px-4 py-3 hover:bg-white/20">
-                    <svg className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 w-full sm:w-auto">
+                  <a href="tel:03093688102" className="group flex items-center justify-center text-white hover:text-red-300 transition-all duration-300 bg-white/10 backdrop-blur-sm rounded-lg px-3 sm:px-4 py-2 sm:py-3 hover:bg-white/20 w-full sm:w-auto">
+                    <svg className="w-5 h-5 sm:w-6 sm:h-6 mr-2 sm:mr-3 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span className="font-semibold text-lg">030 93688102</span>
+                    <span className="font-semibold text-sm sm:text-base lg:text-lg">030 93688102</span>
                   </a>
                   
-                  <a href="mailto:info@wolter-bau.de" className="group flex items-center text-white hover:text-red-300 transition-all duration-300 bg-white/10 backdrop-blur-sm rounded-lg px-4 py-3 hover:bg-white/20">
-                    <svg className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <a href="mailto:info@wolter-bau.de" className="group flex items-center justify-center text-white hover:text-red-300 transition-all duration-300 bg-white/10 backdrop-blur-sm rounded-lg px-3 sm:px-4 py-2 sm:py-3 hover:bg-white/20 w-full sm:w-auto">
+                    <svg className="w-5 h-5 sm:w-6 sm:h-6 mr-2 sm:mr-3 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <span className="font-semibold text-lg">E-Mail</span>
+                    <span className="font-semibold text-sm sm:text-base lg:text-lg">E-Mail</span>
                   </a>
                 </div>
               </div>
