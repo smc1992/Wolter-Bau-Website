@@ -215,7 +215,7 @@ export default function KontaktPage() {
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             <div className="aspect-w-16 aspect-h-9 h-96">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.8234567890123!2d13.3234567!3d52.5678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDM0JzA0LjQiTiAxM8KwMTknMjQuNCJF!5e0!3m2!1sde!2sde!4v1234567890123!5m2!1sde!2sde"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.8234567890123!2d13.334630966186523!3d52.57292938232422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851e4c8b8c8c8%3A0x1234567890abcdef!2sWaldowstra%C3%9Fe%209%2C%2013403%20Berlin!5e0!3m2!1sde!2sde!4v1234567890123!5m2!1sde!2sde"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
