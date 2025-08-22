@@ -29,7 +29,7 @@ export default function Impressum() {
 
           <div className="mb-8">
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Vertretungsberechtigte Geschäftsführerin</h3>
-            <p className="text-gray-700 mb-2">Jennifer Wolter</p>
+            <p className="text-gray-700 mb-2">Wolter Bau GmbH</p>
           </div>
 
           <div className="mb-8">
@@ -42,7 +42,7 @@ export default function Impressum() {
           <div className="mb-8">
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Umsatzsteuer-ID</h3>
             <p className="text-gray-700 mb-2">Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</p>
-            <p className="text-gray-700 mb-2">[USt-IdNr.]</p>
+            <p className="text-gray-700 mb-2">DE351057328</p>
           </div>
 
           <div className="mb-8">

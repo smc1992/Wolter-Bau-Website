@@ -93,7 +93,7 @@ export default function HochbauPage() {
           <div className="bg-red-600 rounded-2xl p-8 lg:p-12 text-white">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-4xl font-bold mb-2">100+</div>
+                <div className="text-4xl font-bold mb-2">20+</div>
                 <div className="text-red-100">Hochbauprojekte</div>
               </div>
               <div>

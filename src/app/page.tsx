@@ -253,7 +253,7 @@ export default function Home() {
                      Von der ersten Planung bis zur finalen Übergabe stehen wir Ihnen mit unserem Fachwissen zur Seite.
                    </p>
                    <p className="text-lg text-gray-600 mb-6">
-                      Unter der Leitung von Geschäftsführerin <strong className="text-red-700">Jennifer Wolter</strong> sorgt unser erfahrenes Team aus qualifizierten Fachkräften dafür, dass Ihre Projekte termingerecht, 
+                      Unser erfahrenes Team aus qualifizierten Fachkräften sorgt dafür, dass Ihre Projekte termingerecht, 
                       budgetkonform und in höchster Qualität realisiert werden.
                     </p>
                    <div className="grid grid-cols-2 gap-6">
@@ -262,7 +262,7 @@ export default function Home() {
                        <div className="text-gray-600">Jahre Erfahrung</div>
                      </div>
                      <div className="text-center">
-                       <div className="text-3xl font-bold text-red-600 mb-2">100+</div>
+                       <div className="text-3xl font-bold text-red-600 mb-2">20+</div>
                        <div className="text-gray-600">Projekte realisiert</div>
                      </div>
                    </div>

@@ -127,8 +127,8 @@ export default function Footer() {
                 </svg>
                 <div className="text-gray-300">
                   <p>Wolter Bau GmbH</p>
-                  <p>Musterstraße 123</p>
-                  <p>12345 Berlin</p>
+                  <p>Waldowstraße 9</p>
+                  <p>13403 Berlin</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -155,7 +155,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Wolter Bau GmbH. Alle Rechte vorbehalten.
+              © {new Date().getFullYear()} Wolter Bau GmbH. Alle Rechte vorbehalten.
             </div>
             <div className="flex space-x-6">
               <Link href="/impressum" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
