@@ -32,12 +32,7 @@ export default function Impressum() {
             <p className="text-gray-700 mb-2">Wolter Bau GmbH</p>
           </div>
 
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Registereintrag</h3>
-            <p className="text-gray-700 mb-2">Eintragung im Handelsregister</p>
-            <p className="text-gray-700 mb-2">Registergericht: [Amtsgericht]</p>
-            <p className="text-gray-700 mb-2">Registernummer: [HRB-Nummer]</p>
-          </div>
+
 
           <div className="mb-8">
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Umsatzsteuer-ID</h3>
